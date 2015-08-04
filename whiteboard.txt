@@ -1,0 +1,18 @@
+Magic the Gathering Score App
+ -Required Functions:
+ 	-keep track of score, commander damage, poison counters
+ 	-roll dice (basic at first, cool later), flip coin
+ 	-allow customization of what goes on screen
+
+ -Features to Add Later:
+	-allow different orientation of points
+	-allow emblems
+ 	-change game mode
+ 	-change backgorund/icon of different players
+ 	-optional timer
+ 	-search cards/check rules
+	-optional mana pool (images as buttons)
+ 	-different profiles saved locally
+	-stats/graphs
+	-different screens for different number of players (to be put in the middle of table)
+	-saved configurations
