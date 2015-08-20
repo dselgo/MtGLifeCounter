@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8F99A6E1B86597B002C261E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F99A6D1B86597B002C261E /* AppDelegate.swift */; };
+		A8F99A711B86597B002C261E /* MtGLifeCounter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8F99A6F1B86597B002C261E /* MtGLifeCounter.xcdatamodeld */; };
+		A8F99A731B86597B002C261E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F99A721B86597B002C261E /* ViewController.swift */; };
+		A8F99A761B86597B002C261E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F99A741B86597B002C261E /* Main.storyboard */; };
+		A8F99A781B86597B002C261E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F99A771B86597B002C261E /* Images.xcassets */; };
+		A8F99A7B1B86597B002C261E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F99A791B86597B002C261E /* LaunchScreen.xib */; };
+		A8F99A871B86597C002C261E /* MtGLifeCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F99A861B86597C002C261E /* MtGLifeCounterTests.swift */; };
+		A8F99A9D1B865CBC002C261E /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F99A951B865CBC002C261E /* MMDrawerBarButtonItem.m */; };
+		A8F99A9E1B865CBC002C261E /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F99A971B865CBC002C261E /* MMDrawerController.m */; };
+		A8F99A9F1B865CBC002C261E /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F99A9A1B865CBC002C261E /* MMDrawerVisualState.m */; };
+		A8F99AA01B865CBC002C261E /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F99A9C1B865CBC002C261E /* UIViewController+MMDrawerController.m */; };
+		A8F99AA21B866110002C261E /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F99AA11B866110002C261E /* LeftSideViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F99A811B86597C002C261E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F99A601B86597B002C261E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F99A671B86597B002C261E;
+			remoteInfo = MtGLifeCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8F99A681B86597B002C261E /* MtGLifeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MtGLifeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F99A6C1B86597B002C261E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F99A6D1B86597B002C261E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8F99A701B86597B002C261E /* MtGLifeCounter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MtGLifeCounter.xcdatamodel; sourceTree = "<group>"; };
+		A8F99A721B86597B002C261E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8F99A751B86597B002C261E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8F99A771B86597B002C261E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8F99A7A1B86597B002C261E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A8F99A801B86597C002C261E /* MtGLifeCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MtGLifeCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F99A851B86597C002C261E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F99A861B86597C002C261E /* MtGLifeCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MtGLifeCounterTests.swift; sourceTree = "<group>"; };
+		A8F99A931B865CBB002C261E /* MtGLifeCounter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MtGLifeCounter-Bridging-Header.h"; sourceTree = "<group>"; };
+		A8F99A941B865CBC002C261E /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = "../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerBarButtonItem.h"; sourceTree = "<group>"; };
+		A8F99A951B865CBC002C261E /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = "../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerBarButtonItem.m"; sourceTree = "<group>"; };
+		A8F99A961B865CBC002C261E /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = "../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerController.h"; sourceTree = "<group>"; };
+		A8F99A971B865CBC002C261E /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = "../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerController.m"; sourceTree = "<group>"; };
+		A8F99A981B865CBC002C261E /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		A8F99A991B865CBC002C261E /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = "../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerVisualState.h"; sourceTree = "<group>"; };
+		A8F99A9A1B865CBC002C261E /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = "../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerVisualState.m"; sourceTree = "<group>"; };
+		A8F99A9B1B865CBC002C261E /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "../../../../Downloads/MMDrawerController-master/MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		A8F99A9C1B865CBC002C261E /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "../../../../Downloads/MMDrawerController-master/MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		A8F99AA11B866110002C261E /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F99A651B86597B002C261E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F99A7D1B86597C002C261E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8F99A5F1B86597B002C261E = {
+			isa = PBXGroup;
+			children = (
+				A8F99A6A1B86597B002C261E /* MtGLifeCounter */,
+				A8F99A831B86597C002C261E /* MtGLifeCounterTests */,
+				A8F99A691B86597B002C261E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F99A691B86597B002C261E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F99A681B86597B002C261E /* MtGLifeCounter.app */,
+				A8F99A801B86597C002C261E /* MtGLifeCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F99A6A1B86597B002C261E /* MtGLifeCounter */ = {
+			isa = PBXGroup;
+			children = (
+				A8F99A921B865C61002C261E /* SideMenu */,
+				A8F99A6D1B86597B002C261E /* AppDelegate.swift */,
+				A8F99A721B86597B002C261E /* ViewController.swift */,
+				A8F99A741B86597B002C261E /* Main.storyboard */,
+				A8F99A771B86597B002C261E /* Images.xcassets */,
+				A8F99A791B86597B002C261E /* LaunchScreen.xib */,
+				A8F99A6F1B86597B002C261E /* MtGLifeCounter.xcdatamodeld */,
+				A8F99A6B1B86597B002C261E /* Supporting Files */,
+				A8F99AA11B866110002C261E /* LeftSideViewController.swift */,
+			);
+			path = MtGLifeCounter;
+			sourceTree = "<group>";
+		};
+		A8F99A6B1B86597B002C261E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F99A6C1B86597B002C261E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8F99A831B86597C002C261E /* MtGLifeCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F99A861B86597C002C261E /* MtGLifeCounterTests.swift */,
+				A8F99A841B86597C002C261E /* Supporting Files */,
+			);
+			path = MtGLifeCounterTests;
+			sourceTree = "<group>";
+		};
+		A8F99A841B86597C002C261E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F99A851B86597C002C261E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8F99A921B865C61002C261E /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A8F99A941B865CBC002C261E /* MMDrawerBarButtonItem.h */,
+				A8F99A951B865CBC002C261E /* MMDrawerBarButtonItem.m */,
+				A8F99A961B865CBC002C261E /* MMDrawerController.h */,
+				A8F99A971B865CBC002C261E /* MMDrawerController.m */,
+				A8F99A981B865CBC002C261E /* MMDrawerController+Subclass.h */,
+				A8F99A991B865CBC002C261E /* MMDrawerVisualState.h */,
+				A8F99A9A1B865CBC002C261E /* MMDrawerVisualState.m */,
+				A8F99A9B1B865CBC002C261E /* UIViewController+MMDrawerController.h */,
+				A8F99A9C1B865CBC002C261E /* UIViewController+MMDrawerController.m */,
+				A8F99A931B865CBB002C261E /* MtGLifeCounter-Bridging-Header.h */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F99A671B86597B002C261E /* MtGLifeCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F99A8A1B86597C002C261E /* Build configuration list for PBXNativeTarget "MtGLifeCounter" */;
+			buildPhases = (
+				A8F99A641B86597B002C261E /* Sources */,
+				A8F99A651B86597B002C261E /* Frameworks */,
+				A8F99A661B86597B002C261E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MtGLifeCounter;
+			productName = MtGLifeCounter;
+			productReference = A8F99A681B86597B002C261E /* MtGLifeCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F99A7F1B86597C002C261E /* MtGLifeCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F99A8D1B86597C002C261E /* Build configuration list for PBXNativeTarget "MtGLifeCounterTests" */;
+			buildPhases = (
+				A8F99A7C1B86597C002C261E /* Sources */,
+				A8F99A7D1B86597C002C261E /* Frameworks */,
+				A8F99A7E1B86597C002C261E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F99A821B86597C002C261E /* PBXTargetDependency */,
+			);
+			name = MtGLifeCounterTests;
+			productName = MtGLifeCounterTests;
+			productReference = A8F99A801B86597C002C261E /* MtGLifeCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F99A601B86597B002C261E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Danny;
+				TargetAttributes = {
+					A8F99A671B86597B002C261E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A8F99A7F1B86597C002C261E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A8F99A671B86597B002C261E;
+					};
+				};
+			};
+			buildConfigurationList = A8F99A631B86597B002C261E /* Build configuration list for PBXProject "MtGLifeCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F99A5F1B86597B002C261E;
+			productRefGroup = A8F99A691B86597B002C261E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F99A671B86597B002C261E /* MtGLifeCounter */,
+				A8F99A7F1B86597C002C261E /* MtGLifeCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F99A661B86597B002C261E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F99A761B86597B002C261E /* Main.storyboard in Resources */,
+				A8F99A7B1B86597B002C261E /* LaunchScreen.xib in Resources */,
+				A8F99A781B86597B002C261E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F99A7E1B86597C002C261E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F99A641B86597B002C261E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F99A731B86597B002C261E /* ViewController.swift in Sources */,
+				A8F99A6E1B86597B002C261E /* AppDelegate.swift in Sources */,
+				A8F99A9D1B865CBC002C261E /* MMDrawerBarButtonItem.m in Sources */,
+				A8F99AA01B865CBC002C261E /* UIViewController+MMDrawerController.m in Sources */,
+				A8F99A9E1B865CBC002C261E /* MMDrawerController.m in Sources */,
+				A8F99A711B86597B002C261E /* MtGLifeCounter.xcdatamodeld in Sources */,
+				A8F99AA21B866110002C261E /* LeftSideViewController.swift in Sources */,
+				A8F99A9F1B865CBC002C261E /* MMDrawerVisualState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F99A7C1B86597C002C261E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F99A871B86597C002C261E /* MtGLifeCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F99A821B86597C002C261E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F99A671B86597B002C261E /* MtGLifeCounter */;
+			targetProxy = A8F99A811B86597C002C261E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8F99A741B86597B002C261E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F99A751B86597B002C261E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F99A791B86597B002C261E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F99A7A1B86597B002C261E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F99A881B86597C002C261E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F99A891B86597C002C261E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F99A8B1B86597C002C261E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MtGLifeCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MtGLifeCounter/MtGLifeCounter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8F99A8C1B86597C002C261E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MtGLifeCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MtGLifeCounter/MtGLifeCounter-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A8F99A8E1B86597C002C261E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MtGLifeCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtGLifeCounter.app/MtGLifeCounter";
+			};
+			name = Debug;
+		};
+		A8F99A8F1B86597C002C261E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MtGLifeCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MtGLifeCounter.app/MtGLifeCounter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F99A631B86597B002C261E /* Build configuration list for PBXProject "MtGLifeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F99A881B86597C002C261E /* Debug */,
+				A8F99A891B86597C002C261E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F99A8A1B86597C002C261E /* Build configuration list for PBXNativeTarget "MtGLifeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F99A8B1B86597C002C261E /* Debug */,
+				A8F99A8C1B86597C002C261E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8F99A8D1B86597C002C261E /* Build configuration list for PBXNativeTarget "MtGLifeCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F99A8E1B86597C002C261E /* Debug */,
+				A8F99A8F1B86597C002C261E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8F99A6F1B86597B002C261E /* MtGLifeCounter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8F99A701B86597B002C261E /* MtGLifeCounter.xcdatamodel */,
+			);
+			currentVersion = A8F99A701B86597B002C261E /* MtGLifeCounter.xcdatamodel */;
+			path = MtGLifeCounter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8F99A601B86597B002C261E /* Project object */;
+}

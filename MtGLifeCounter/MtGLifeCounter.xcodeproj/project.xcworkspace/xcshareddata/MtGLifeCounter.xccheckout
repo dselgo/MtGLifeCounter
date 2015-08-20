@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BDB118F1-C150-4FC2-A3DC-5989B120D316</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ADB3EB8FD404C5AD5C5FEB1DCE272BE1D3C35527</key>
+		<string>https://github.com/dselgo/MtGLifeCounter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MtGLifeCounter/MtGLifeCounter.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ADB3EB8FD404C5AD5C5FEB1DCE272BE1D3C35527</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dselgo/MtGLifeCounter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ADB3EB8FD404C5AD5C5FEB1DCE272BE1D3C35527</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ADB3EB8FD404C5AD5C5FEB1DCE272BE1D3C35527</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MtGLifeCounter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
